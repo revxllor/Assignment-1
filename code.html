@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #3AAFA9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #1F2833;
+            color: #fff;
+            padding: 5px 0;
+            text-align: center;
+            border-bottom: 5px solid #00251a;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto; 
+        }
+        .team {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto;
+            grid-gap: 20px;
+            padding: 30px 50px;
+            background: #2B7A78;
+            border-radius: 5%;
+        }
+        .team-member {
+            background: #DEF2F1 ;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .team-member h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #004d40;
+        }
+        .team-member p {
+            font-size: 1em;
+            color: #555;
+            margin: 0;
+        }
+        .team-member .description {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .bottom-row {
+            grid-column: 1 / span 3; 
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .bottom-row .team-member {
+            flex: 1; 
+            max-width: 100%; 
+            box-sizing: border-box;
+        }
+        .copyright p{
+    text-align: center;
+    padding: 18px;
+    background: var(--bb-color);
+    font-size: 14px;
+    font-weight: 500;
+    color: #1c1c1c;
+    letter-spacing: 1px;
+}
+.role{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Meet Our Team</h1>
+    </header>
+
+    <section>
+    <div class="container">
+        <div class="team">
+            <div class="team-member">
+                <img src="blandin.jpg" alt="Blandin Nap Armea">
+                <h3>Blandin Nap N. Armea</h3>
+                <p class="role">Team/Group Leader</p>
+                <p class="description">A passionate student who has a strong curiosity and passion for technology, with characteristics of strong problem-solving skills and critical thinking.</p>
+                <p><strong>Contact:</strong> armeablandinnap_bsit@plmun.edu.ph</p>
+            </div>
+            <div class="team-member">
+                <img src="decery.jpg" alt="Decery Joyce I. Ramos">
+                <h3>Decery Joyce I. Ramos</h3>
+                <p class="role">Team/Group Assistant Leader</p>
+                <p class="description">An independent woman, balancing a career while raising my kids, and showing them the value of strength and resilience.</p>
+                <p><strong>Contact:</strong> ramosdeceryjoyce_bsit@plmun.edu.ph</p>
+            </div>
+            <div class="team-member">
+                <img src="rolli.jpg" alt="Rolliver M. Hernandez">
+                <h3>Rolliver M. Hernandez</h3>
+                <p class="role">Team/Group Member</p>
+                <p class="description">A dedicated student with a passion for technology and gaming, always eager to learn new things and challenge himself.</p>
+                <p><strong>Contact:</strong> hernandezrolliver_bsit@plmun.edu.ph</p>
+            </div>
+
+            
+            <div class="bottom-row">
+                <div class="team-member">
+                    <img src="anna.jpg" alt="Joanna Laine L. De Guzman">
+                    <h3>Joanna Laine L. De Guzman</h3>
+                    <p class="role">Team/Group Member</p>
+                    <p class="description">Woman who is focused when it comes to group activities. She enjoys collaborating on projects and learning new things.</p>
+                    <p><strong>Contact:</strong> deguzmanjoannalaine_bsit@plmun.edu.ph</p>
+                </div>
+                <div class="team-member">
+                    <img src="vencint.jpg" alt="John Vencint Remoto">
+                    <h3>John Vencint Remoto</h3>
+                    <p class="role">Team/Group Member</p>
+                    <p class="description"> A hardworking person focus on programming and above all I love programming websites   
+                    </p>
+                    <p><strong>Contact:</strong>remotojohnvencint_bsit@plmun.edu.ph</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="copyright">
+        <p>&copy; BSIT-3D of PAMANTASAN NG LUNGSOD NG MUNTINLUPA. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
